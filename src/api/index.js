@@ -1,5 +1,5 @@
 export const request = async (api, data) => {
-    const response = await fetch(`http://127.0.0.1:8000/${api}`, {
+    const response = await fetch(`/api/${api}`, {
         method: 'POST',
         mode: 'cors',
         credentials: 'same-origin',
